@@ -7,7 +7,7 @@ import java.util.Queue;
 
 public class BST<E>{
 
-    public class Node<E>{
+    private class Node<E>{
          E data;
          Node<E> left;
          Node<E> right;
