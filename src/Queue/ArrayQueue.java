@@ -25,6 +25,7 @@ public class ArrayQueue<E> {
             if(rear == data.length) rear = 0;
             data[rear++] = obj;
             size ++;
+            return;
         }
         System.out.println("The Queue is full!");
     }
